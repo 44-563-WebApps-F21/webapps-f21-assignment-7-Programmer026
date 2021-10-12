@@ -29,41 +29,74 @@
 
         <div class=".container">
             <div class="row">
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img01" onclick="check(0)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img02" onclick="check(1)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img03" onclick="check(2)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img04" onclick="check(3)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img05" onclick="check(4)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img06" onclick="check(5)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
             </div>
 
             <div class="row">
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img11" onclick="check(6)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img12" onclick="check(7)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img13" onclick="check(8)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img14" onclick="check(9)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img15" onclick="check(10)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img16" onclick="check(11)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
             </div>
 
             <div class="row">
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img21" onclick="check(12)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img22" onclick="check(13)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img23" onclick="check(14)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img24" onclick="check(15)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img25" onclick="check(16)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img26" onclick="check(17)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
             </div>
 
             <div class="row">
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
-                <div class="col"><img src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img31" onclick="check(18)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img32" onclick="check(19)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img33" onclick="check(20)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img34" onclick="check(21)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img35" onclick="check(22)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
+                <div class="col"><img id="img36" onclick="check(23)" src="forest-image.jpg" alt="Image of forest" height=150 width=150></div>
             </div>
         </div>
+
+        <script>
+            let ids = ["img01", "img02", "img03","img04", "img05", "img06", "img11", "img12", "img13","img14", "img15", "img16", "img21", "img22", "img23","img24", "img25", "img26", "img31", "img32", "img33","img34", "img35", "img36"]
+            let triesCount = 0
+            animalLocation = 13
+            function check(x){
+                id = ids[x]
+                imgElement = document.getElementById(id)
+                if(x === animalLocation) {
+                    imgElement.src = "cute-kitty-memes-kittens-41532621-620-593.jpg" 
+                    
+                } else {
+                    imgElement.src = "black-hole-square.jpg"
+                }
+                triesCount += 1
+                triesTag = document.getElementById("tries")
+                triesTag.innerHTML = "Number of tries is " + triesCount
+                distance(x, animalLocation)
+            }
+
+            function distance(clickPos, animalLocation) {
+                curr = clickPos % 6
+                dest = animalLocation % 6
+                horizontalDis = Math.abs(curr - dest)
+                verCurr = Math.floor(clickPos / 6)
+                verDest = Math.floor(animalLocation / 6)
+                verticalDis = Math.abs(verCurr - verDest)
+                maxDis = Math.max(horizontalDis, verticalDis)
+
+                disTag = document.getElementById("distance")
+                disTag.innerHTML = "Distance is " + maxDis
+            }
+        </script>
 
     </body>
 </html>
