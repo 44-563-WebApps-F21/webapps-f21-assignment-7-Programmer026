@@ -69,10 +69,14 @@
 		index = 0
 		for(let item of stackItems) {
 			if(item.innerHTML == val) {
-				stackItems[index].remove()
+				console.log(item)
+				setTimeout(function(){
+					item.remove();
+				}, stackItems[index])
 			}
-			index += 1
+			index+=1
 		}
 	}
+
 </script>
 </html>	
